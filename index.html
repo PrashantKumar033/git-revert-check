@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header><h2>Ragistration form</h2></header>
+    <div>
+        <form action="">
+            <header>
+                <label for="name">Name : </label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+            </header>
+            <section>
+                <label for="sex">Sex:</label>
+                Male <input type="radio" name="sex" value="male">
+                Female <input type="radio" name="sex" value="female">
+                TransGender <input type="radio" name="sex" value="trans">
+            </section>
+            <section>
+                <label for="country">Country :</label>
+                <select name="country" id="country">
+                    <option value="ind">India</option>
+                    <option value="usa">America</option>
+                    <option value="ruse">Russia</option>
+                </select>
+            </section>
+            <section>
+                <label for="Sub">Select Subject:</label>
+                Math:<input type="checkbox" name="sub" value="math">
+                Physics:<input type="checkbox" name="sub" value="phy">
+                Chemistry:<input type="checkbox" name="sub" value="che">
+                Biology:<input type="checkbox" name="sub" value="bio">
+            </section>
+            <footer>
+                Are you agree with the above info:
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree">Yes</label>
+            </footer>
+            <button>Register</button>
+
+        </form>
+    </div>
+</body>
+</html>
